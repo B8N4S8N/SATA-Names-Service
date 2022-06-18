@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import './styles/App.css';
 import twitterLogo from './assets/twitter-logo.svg';
 import {ethers} from "ethers";
-
 // Constants
 const TWITTER_HANDLE = '_buildspace';
 const TWITTER_HANDLE2 = 'b8n4s8n1'
@@ -10,6 +9,7 @@ const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const TWITTER_LINK2 =  `https://twitter.com/${TWITTER_HANDLE2}`;
 const tld = '.666';
 const CONTRACT_ADDRESS = '0x0ACf584F0807c6a6591077202b0892dCf6a822af';
+
 
 const App = () => {
 	const [currentAccount, setCurrentAccount] = useState('');
@@ -104,7 +104,7 @@ const [record, setRecord] = useState('');
 
 	const renderNotConnectedContainer = () => (
 		<div className="connect-wallet-container">
-      <img src="https://media1.giphy.com/media/KSzxFSCApjqOOI1A9q/giphy.gif?cid=ecf05e47abb33ozp6jpk590d0o6wicf0lmgnjajn9m8myywh&rid=giphy.gif&ct=g" alt="Ninja gif" />
+      <iframe title="3D Domain NFT" src="https://app.vectary.com/p/1CNQ0adMZKPyMEXOeI4ZUF" frameborder="0" width="500" height="500"></iframe>
       <button onClick={connectWallet} className="cta-button connect-wallet-button">
         Connect Wallet
       </button>
@@ -133,7 +133,7 @@ const [record, setRecord] = useState('');
 				/>
 
 				<div className="button-container">
-					<button className='cta-button mint-button' onClick={}>
+					<button className='cta-button mint-button' onClick={null}>
 						Mint
 					</button>   
 				</div>
