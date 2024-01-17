@@ -133,7 +133,7 @@ const [record, setRecord] = useState('');
 				/>
 
 				<div className="button-container">
-					<button className='cta-button mint-button' onClick={}>
+					<button className='cta-button mint-button' /*onClick={}*/>
 						Mint
 					</button>   
 				</div>
